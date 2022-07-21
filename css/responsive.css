@@ -1,0 +1,202 @@
+
+/* Responsive for Mobile device  */
+@media only screen and (max-width:688px){
+    /* Banner Section Responsive  */
+    #banner{
+        width: 100%;
+        background-color: #fff;
+    }
+    .container{
+        flex-direction: column;
+        justify-content: center;
+        padding: 60px 0 0 0;
+        text-align: center;
+        background-color: #462222;
+        width: 90%;
+        border-radius: 10px;
+    }
+    .banner_content{
+        width: 75%;
+    }
+    .banner_content h1{
+        font-size: 22px;
+        line-height: 1.5;
+    }
+    .banner_content p{
+        font-size: 14px;
+    }
+    .banner_content .watch_live_btn{
+        padding: 8px 10px;
+        font-size: 18px;
+    }
+    .banner_img{
+        width: 80%;
+    }
+    /* Transfer Players Section Responsive  */
+    #transfer_player{
+        width: 100%;
+        grid-template-columns: 1fr;
+    }
+    .fixed_side_menu{
+        /* flex-direction: row; */
+        margin-bottom: 15px;
+        background-color: #fff;
+        margin: auto;
+        width: 90%;
+    }
+    .side-menu_item{
+        margin:  10px 0;
+        padding: 12px 0px;
+    }
+    .fixed_side_menu .side-menu_item a{
+        font-size: 18px;
+    }
+    .transfers{
+        grid-template-columns: repeat(1, 1fr);
+        width: 90%;
+        margin: auto;
+        gap: 30px;
+    }
+    .transfers .transfer .transfer_img{
+        width: 100%;
+    }
+    .transfers .transfer .transfer_img img{
+        width: 100%;
+    }
+    .transfer_info a{
+        font-size: 16px;
+        padding: 3px 8px;
+    }
+    .transfer_info h3{
+        font-size: 18px;
+    }
+    .transfer_info span{
+        font-size: 16px;
+    }
+
+    /* Resposive Foorter Section  */
+    .footer_container{
+        width: 90%;
+        background-color: #462222;
+    }
+    .footer_container h3{
+        font-size: 22px;
+        margin-bottom: 15px;
+    }
+    .footer_nav ul{
+        flex-direction: column;
+    }
+    .footer_nav ul li{
+        list-style: none;
+        padding: 10px 0;
+    }
+    .footer_nav ul li a{
+        font-size: 14px;
+    }
+    .social_icon a{
+        width: 25px;
+        font-size: 18px;
+    }
+}
+
+/* Responsive For Tab  */
+
+@media only screen and (min-width: 689px) and (max-width:959px){
+    /* Responsive banner Section  */
+    #banner{
+        width: 100%;
+        padding: 0 40px;
+    }
+    .container{
+        width: 100%;
+    }
+    .banner_content{
+        width: 80%;
+    }
+    .banner_content h1{
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .banner_content p{
+        font-size: 14px;
+    }
+    .banner_content .watch_live_btn{
+        padding: 8px 15px;
+        font-size: 18px;
+    }
+    .banner_img{
+        width: 80%;
+    }
+    
+    /* Responsive Trans Player Section  */
+    #transfer_player{
+        width: 100%;
+        grid-template-columns: 1fr;
+    }
+    .fixed_side_menu{
+        flex-direction: row;
+        margin-bottom: 15px;
+        background-color: #fff;
+        margin: auto;
+        width: 90%;
+    }
+    .side-menu_item{
+        margin: 8px 10px;
+    }
+    .transfers{
+        grid-template-columns: repeat(2, 1fr);
+        width: 100%;
+    }
+    .transfer_info{
+        padding: 15px;
+    }
+    .transfer_info a, 
+    .transfer_info h3,
+    .transfer_info span{
+        font-size: 18px;
+    }
+    .view_btn{
+        display: block;
+    }
+
+    /* Resposive Footer Section  */
+    .footer_container{
+        width: 90%;
+    }
+    .footer_content{
+        width: 100%;
+    }
+    .footer_nav ul li{
+        padding: 0 13px;
+    }
+    .footer_nav ul li a{
+        font-size: 12px;
+    }
+}
+
+/* Responsive Upcoming Page  */
+/* Responsive for Mobile device  */
+@media only screen and (max-width:688px){
+    #upcoming_match{
+        width: 100%; 
+        grid-template-columns: 1fr;
+    }
+    .matches{
+        grid-template-columns:1fr;
+    }
+    .match{
+        width: 75%;
+        margin: auto;
+    }
+}
+/* Responsive For Tab  */
+
+@media only screen and (min-width: 689px) and (max-width:959px){
+    #upcoming_match{
+        width: 100%; 
+        grid-template-columns: 1fr;
+    }
+    .matches{
+        grid-template-columns:1fr 1fr;
+    }
+}
